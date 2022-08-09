@@ -1,0 +1,188 @@
+/* Containers */
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* ---------------------Title section ---------------------------*/
+
+
+#title.container-fluid{
+    padding: 0% 15% 20%;
+    text-align: start;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+        text-align: center;
+}
+
+
+
+p {
+    color: #808080;
+}
+
+/* --------------------- Sections ---------------------------*/
+
+.colored-sec{
+background-color: #ff4c68;
+    color: #ffff;
+}
+
+.whited-sec{
+background-color: white;
+}
+
+/* Heading */
+
+.big-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+}
+
+/* Navbar Styling  */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.navbar-item {
+    padding: 0 18px;
+}
+
+/* Download Button */
+
+.download-button {
+    margin: 2% 2% 2% 0;
+}
+
+/* Title Image */
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%
+}
+
+
+/* Features Section */
+
+
+.fa-4x {
+    color: #ef8172;
+    margin-bottom: 20px;
+}
+
+.features-background {
+    position: relative;
+}
+
+.feature-hd-font {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.feature-hd-font:hover {
+    font-size: 2rem;
+}
+
+.fa-4x:hover {
+    color: #ff4c68;
+}
+
+
+
+/* Testimonial Section */
+
+
+
+.testimonial-title{
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+.testimonial-image {
+    border-radius: 100%;
+    width: 15%;
+    margin: 20px;
+}
+
+/* Press Section */
+
+
+.press-logo {
+    width: 10%;
+    margin: 0 5%;
+}
+
+/* Pricing Cards */
+
+
+.card {
+    margin: 10px;
+}
+
+.price-title{
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 4rem;
+    text-align: start;
+}
+
+
+/* Footer */
+
+
+
+
+
+.copy-right{
+    color: grey;
+    padding: 5px;
+    font-weight: 400;
+
+}
+
+i{
+    margin: 0 4px;
+    color: #808080;
+}
+
+/* Media Queries */
+
+@media (max-width: 1000px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0deg);
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+
+
+}
